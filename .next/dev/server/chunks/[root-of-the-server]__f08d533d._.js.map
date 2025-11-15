@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 106, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/ASUS/OneDrive/Escritorio/Nuevos/Semana%2013%20WebAvanzado/next-auth-app/src/app/api/auth/%5B...nextauth%5D/route.ts"],"sourcesContent":["import NextAuth from \"next-auth\";\r\nimport GoogleProvider from \"next-auth/providers/google\";\r\n\r\nexport const authOptions = {\r\n    // Configure one or more authentication providers\r\n    providers: [\r\n        GoogleProvider({\r\n            clientId: process.env.GOOGLE_CLIENT_ID as string,\r\n            clientSecret: process.env.GOOGLE_CLIENT_SECRET as string,\r\n        }),\r\n    ],\r\n};\r\n\r\nconst handler = NextAuth(authOptions);\r\nexport { handler as GET, handler as POST };\r\n"],"names":[],"mappings":";;;;;;;;AAAA;AACA;;;AAEO,MAAM,cAAc;IACvB,iDAAiD;IACjD,WAAW;QACP,IAAA,gKAAc,EAAC;YACX,UAAU,QAAQ,GAAG,CAAC,gBAAgB;YACtC,cAAc,QAAQ,GAAG,CAAC,oBAAoB;QAClD;KACH;AACL;AAEA,MAAM,UAAU,IAAA,kJAAQ,EAAC"}}]
+}

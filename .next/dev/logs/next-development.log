@@ -1,0 +1,69 @@
+[00:00:01.139] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:01.142] Server  ERROR    ⨯ The file "./src\middleware.ts" must export a function, either as a default export or as a named "middleware" export.
+This function is what Next.js runs for every request handled by this middleware.
+
+Why this happens:
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "middleware" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:01.299] Server  LOG      ✓ Ready in 991ms
+[00:00:04.001] Server  LOG     {}
+[00:00:04.015] Browser ERROR   [next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error Failed to fetch {"error":{"message":"Failed to fetch","name":"TypeError","stack":"TypeError: Failed to fetch\n    at _callee$ (http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:2246:28)\n    at http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1431:26\n    at Generator.<anonymous> (http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1255:63)\n    at Generator.next (http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1204:29)\n    at asyncGeneratorStep (http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1516:21)\n    at _next (http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1528:17)\n    at http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1533:13\n    at new Promise (<anonymous>)\n    at http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1525:16\n    at fetchData (http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:2223:23)\n    at _callee3$ (http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:2497:49)\n    at http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1431:26\n    at Generator.<anonymous> (http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1255:63)\n    at Generator.next (http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1204:29)\n    at asyncGeneratorStep (http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1516:21)\n    at _next (http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1528:17)\n    at http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1533:13\n    at new Promise (<anonymous>)\n    at http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1525:16\n    at getSession (http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:2487:25)\n    at _callee$ (http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:2778:36)\n    at http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1431:26\n    at Generator.<anonymous> (http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1255:63)\n    at Generator.next (http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1204:29)\n    at asyncGeneratorStep (http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1516:21)\n    at _next (http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1528:17)\n    at http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1533:13\n    at new Promise (<anonymous>)\n    at Object._getSession (http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:1525:16)\n    at HTMLDocument.visibilityHandler (http://localhost:3000/_next/static/chunks/node_modules_4eb0dafa._.js:2837:96)"},"message":"Failed to fetch","url":"/api/auth/session"}
+[00:00:04.063] Server  LOG     null
+[00:00:04.359] Server  LOG     {}
+[00:00:04.521] Server  WARN     ⚠ The "images.domains" configuration is deprecated. Please use "images.remotePatterns" configuration instead.
+[00:00:04.596] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:14.223] Server  LOG     {}
+[00:02:14.231] Server  LOG     null
+[00:02:14.286] Server  LOG     null
+[00:02:16.246] Server  LOG     {}
+[00:02:16.420] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:07.760] Server  LOG     {}
+[00:03:07.765] Server  LOG     null
+[00:03:07.803] Server  LOG     null
+[00:03:07.874] Server  LOG     null
+[00:03:07.877] Server  LOG     {}
+[00:03:07.970] Server  LOG     null
+[00:03:08.070] Server  LOG     {}
+[00:03:15.208] Server  LOG     {}
+[00:03:15.213] Server  LOG     null
+[00:03:15.264] Server  LOG     null
+[00:03:15.331] Server  LOG     null
+[00:03:15.336] Server  LOG     {}
+[00:03:15.418] Server  LOG     null
+[00:03:15.460] Server  LOG     {}
+[00:03:19.245] Server  LOG     {}
+[00:03:19.249] Server  LOG     null
+[00:03:19.275] Server  LOG     null
+[00:03:19.325] Server  LOG     null
+[00:03:19.339] Server  LOG     {}
+[00:03:19.411] Server  LOG     null
+[00:03:19.456] Server  LOG     {}
+[00:03:23.773] Server  LOG     {}
+[00:03:23.778] Server  LOG     null
+[00:03:23.825] Server  LOG     null
+[00:03:23.889] Server  LOG     {}
+[00:03:23.894] Server  LOG     null
+[00:03:23.969] Server  LOG     null
+[00:03:24.041] Server  LOG     {}
+[00:03:53.684] Server  LOG     {}
+[00:03:53.689] Server  LOG     null
+[00:03:53.721] Server  LOG     null
+[00:03:53.774] Server  LOG     {}
+[00:03:53.780] Server  LOG     null
+[00:03:53.836] Server  LOG     null
+[00:03:53.885] Server  LOG     {}
+[00:04:44.664] Server  LOG     null
+[00:04:44.862] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:48.158] Server  LOG     {}
+[00:04:48.323] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:52.594] Server  LOG     null
+[00:04:52.735] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:07.719] Server  LOG     {}
+[00:05:07.876] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

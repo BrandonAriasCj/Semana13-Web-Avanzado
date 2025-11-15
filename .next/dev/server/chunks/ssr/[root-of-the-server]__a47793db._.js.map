@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/ASUS/OneDrive/Escritorio/Nuevos/Semana%2013%20WebAvanzado/next-auth-app/src/components/LogoutButton.tsx"],"sourcesContent":["'use client';\r\n\r\nimport { signOut } from 'next-auth/react';\r\n\r\nexport default function LogoutButton() {\r\n  return (\r\n    <button\r\n      onClick={() => signOut({ callbackUrl: '/signin' })}\r\n      className=\"bg-gray-600 text-white py-2 px-4 rounded hover:bg-red-500 transition\"\r\n    >\r\n      Cerrar Sesión\r\n    </button>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAAS;IACtB,qBACE,8OAAC;QACC,SAAS,IAAM,IAAA,yJAAO,EAAC;gBAAE,aAAa;YAAU;QAChD,WAAU;kBACX;;;;;;AAIL"}},
+    {"offset": {"line": 36, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/ASUS/OneDrive/Escritorio/Nuevos/Semana%2013%20WebAvanzado/next-auth-app/src/components/SessionProvider.tsx"],"sourcesContent":["'use client';\r\n\r\nimport { SessionProvider } from 'next-auth/react';\r\n\r\nexport default function Provider({\r\n  children\r\n}: {\r\n  children: React.ReactNode\r\n}) {\r\n  return (\r\n    <SessionProvider>\r\n      {children}\r\n    </SessionProvider>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAAS,SAAS,EAC/B,QAAQ,EAGT;IACC,qBACE,8OAAC,iKAAe;kBACb;;;;;;AAGP"}}]
+}
