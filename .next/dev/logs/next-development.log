@@ -1,5 +1,5 @@
-[00:00:03.438] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:00:03.443] Server  ERROR    ⨯ The file "./src\middleware.ts" must export a function, either as a default export or as a named "middleware" export.
+[00:00:07.611] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:07.615] Server  ERROR    ⨯ The file "./src\middleware.ts" must export a function, either as a default export or as a named "middleware" export.
 This function is what Next.js runs for every request handled by this middleware.
 
 Why this happens:
@@ -11,81 +11,12 @@ To fix it:
 - Ensure this file has either a default or "middleware" function export.
 
 Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:00:03.663] Server  LOG      ✓ Ready in 1861ms
-[00:00:09.717] Server  LOG      ○ Compiling / ...
-[00:00:13.095] Server  LOG     {}
-[00:00:13.848] Server  LOG     {}
-[00:00:14.392] Server  WARN     ⚠ The "images.domains" configuration is deprecated. Please use "images.remotePatterns" configuration instead.
-[00:00:14.458] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:14.621] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body
-                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
--                           data-new-gr-c-s-check-loaded="14.1261.0"
--                           data-gr-ext-installed=""
-                          >
-                  ...
-
-[00:00:22.079] Server  LOG     null
-[00:00:22.240] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:31.619] Server  LOG     null
-[00:00:31.814] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:43.656] Server  LOG     null
-[00:02:53.365] Server  LOG     null
-[00:03:01.350] Server  LOG     null
-[00:03:08.652] Server  LOG     null
-[00:03:22.593] Server  LOG     null
-[00:03:22.795] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:32.236] Server  LOG     null
-[00:03:32.430] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:30.338] Server  LOG     null
-[00:04:30.516] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:51.977] Server  LOG     null
-[00:13:08.831] Server  LOG     null
-[00:13:08.963] Server  LOG     null
-[00:13:49.780] Server  LOG     {}
-[00:15:33.593] Server  LOG     null
-[00:15:33.612] Server  LOG     {}
-[00:15:33.667] Server  LOG     null
-[00:15:33.696] Server  LOG     {}
-[00:15:33.738] Server  LOG     null
-[00:15:33.767] Server  LOG     {}
-[00:15:33.812] Server  LOG     null
-[00:15:33.848] Server  LOG     {}
-[00:15:33.887] Server  LOG     null
-[00:15:33.916] Server  LOG     {}
-[00:15:34.738] Server  LOG     null
-[00:15:34.742] Server  LOG      ✓ Compiled in 55ms
-[00:15:35.070] Server  LOG     {}
-[00:26:08.271] Server  LOG     null
-[00:27:19.674] Server  LOG     {}
-[00:27:23.894] Server  LOG     null
+[00:00:10.236] Server  LOG      ✓ Ready in 8s
+[00:00:13.257] Server  LOG      ○ Compiling / ...
+[00:00:16.784] Server  LOG     null
+[00:00:16.983] Server  LOG     null
+[00:00:19.575] Server  LOG     null
+[00:00:27.874] Server  LOG     {}
+[00:00:28.575] Server  WARN     ⚠ The "images.domains" configuration is deprecated. Please use "images.remotePatterns" configuration instead.
+[00:00:56.592] Server  LOG     null
+[00:01:02.015] Server  LOG     null
